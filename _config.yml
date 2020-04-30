@@ -3,8 +3,8 @@ title: Sandeep Jaiswal
 subtitle: Software Developer
 email: sandeepjswl123@gmail.com
 description: I'm a Software Developer, You can checkout my projects here
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: # the base hostname & protocol for your site
+baseurl: "/sandyjswl.github.io" # the subpath of your site, e.g. /blog
+url: https://sandyjswl.github.io/
 author:
 street_address: Mahadevpura, Whitefield
 city: Bangalore

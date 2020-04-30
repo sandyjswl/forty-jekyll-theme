@@ -1,13 +1,63 @@
 ---
 layout: post
-title: Generic
-description: Lorem ipsum dolor est
-image: assets/images/pic11.jpg
+title: Mashup
+description: Web Application
+image: assets/images/mashup.png
 nav-menu: true
 ---
 
-Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.
+Mashup is a website that lets users search for articles atop a map, Using the Google Maps API along with the data from Google News. The user can enter a pin code or any location and the top news from the location are displayed as hyperlinks, which when clicked will redirect the user to the website. This is done using the Google news feed.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.
+Below are the screenshots of different pages included.
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.
+Tools used
+
+<ul>
+    <li>Python</li>
+    <li>Flask</li>
+    <li>SQL (To store all the locations along with pin code)</li>
+    <li>Jinja2 (Templating language)</li>
+    <li>phpLiteAdmin (Manage the database)</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Google Maps API</li>
+    <!-- <li></li>
+    <li></li>
+    <li></li> -->
+
+</ul>
+
+# Screenshots
+
+## Start Page
+
+![Start](https://i.imgur.com/WHnM0ix.png)
+
+The Start page of the web app.
+
+## Enter a location/pin code 
+
+![Location](https://i.imgur.com/GKUmy0i.png)
+
+Shows the user matching locations and suggestions
+
+## Result
+
+![Result](https://i.imgur.com/gru2uXg.png)
+
+Displays all the recent headline from the entered location as hyperlinks.
+
+## Redirect
+
+![Redirect](https://i.imgur.com/rMwmV1R.png)
+
+Redirect the user to the original website.
+
+## Nearby Locations
+
+![Quote](https://i.imgur.com/oJAjz0T.png)
+
+![Quote](https://i.imgur.com/iok5dQH.png)
+
+
+User can also search for headlines from nearby locations.

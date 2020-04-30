@@ -1,87 +1,86 @@
 ---
-title: Landing
-layout: landing
-description: 'Lorem ipsum dolor sit amet nullam consequa<br />sed veroeros. tempus adipiscing nulla.'
-image: assets/images/pic07.jpg
+title: Finance
+layout: post
+description: 'Web Application'
+image: assets/images/finance.jpg
 nav-menu: true
 ---
 
-<!-- Main -->
-<div id="main">
+Finance is a stock trading website via which users can buy and sell stocks of a
+company as per the current share prices of the company. The website also includes a database which stores the details of the users such that the user can sign in at a later stage using the same credentials.
 
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h2>Sed amet aliquam</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
-	</div>
-</section>
+When a new user creates an account, he is credited with $10,000 so that he can buy stocks of the companies of preference. Smart purchases will help the user increase his balance. If the user is short of money, he can also take a loan provided the amount is less than $1000.
+Below are the screenshots of different pages included.
 
-<!-- Two -->
-<section id="two" class="spotlights">
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic08.jpg %}" alt="" data-position="center center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Orci maecenas</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic09.jpg %}" alt="" data-position="top center" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Rhoncus magna</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-	<section>
-		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic10.jpg %}" alt="" data-position="25% 25%" />
-		</a>
-		<div class="content">
-			<div class="inner">
-				<header class="major">
-					<h3>Sed nunc ligula</h3>
-				</header>
-				<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-				<ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul>
-			</div>
-		</div>
-	</section>
-</section>
+**Tools used**
+- Python
+- Flask
+- SQL
+- Jinja2 (Templating language)
+- WTForms
+- phpLiteAdmin
+- HTML
+- CSS
 
-<!-- Three -->
-<section id="three">
-	<div class="inner">
-		<header class="major">
-			<h2>Massa libero</h2>
-		</header>
-		<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-		<ul class="actions">
-			<li><a href="generic.html" class="button next">Get Started</a></li>
-		</ul>
-	</div>
-</section>
 
-</div>
+
+# Screenshots
+
+## Login
+
+![Login](https://i.imgur.com/tSaq6zE.png)
+
+Allows an existing user to Login.
+
+## Register 
+
+![Register](https://i.imgur.com/1piwqAH.png)
+
+Allow the user to create a new account.
+
+## Validation
+
+![Validation](https://i.imgur.com/ibpfmFz.png)
+
+Validates the details entered by the user
+
+## Home
+
+![Home](https://i.imgur.com/oVdmXSz.png)
+
+Home page of a new user.
+
+## Quote
+
+![Quote](https://i.imgur.com/1ftKzrp.png)
+
+![Quote](https://i.imgur.com/hFf6Nuv.png)
+
+
+Shows the realtime stock price of a company
+
+## Buy
+
+![Buy](https://i.imgur.com/Eew3azF.png)
+
+![Buy](https://i.imgur.com/EKNtNMF.png)
+
+Allows the user to buy stocks of a company.
+
+## Sell
+
+![Sell](https://i.imgur.com/2lNRF2O.png)
+
+![Sell](https://i.imgur.com/1tb3xo7.png)
+
+Allows the user to sell stocks of a company.
+
+## History
+
+![History](https://i.imgur.com/CJxc7YD.png)
+
+Displays a history of all the transactions made by the user.
+
+
+**_More features will be added to the website, i'm currently working on something else._**
+
